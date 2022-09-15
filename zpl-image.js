@@ -429,7 +429,7 @@
 		let j, i;
 
 		for (i = 0; i < s.length; i++) {
-			c = s.charCodeAt(i);
+			let c = s.charCodeAt(i);
 			if (c > 255) {
 				throw new RangeError();
 			}
